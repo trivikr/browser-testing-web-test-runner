@@ -1,0 +1,20 @@
+{
+  "name": "browser-testing-web-test-runner",
+  "version": "0.0.1",
+  "description": "Example browser testing using Web Test Runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trivikr/browser-testing-web-test-runner.git"
+  },
+  "keywords": [],
+  "author": "Kamat, Trivikram",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trivikr/browser-testing-web-test-runner/issues"
+  },
+  "homepage": "https://github.com/trivikr/browser-testing-web-test-runner#readme"
+}
