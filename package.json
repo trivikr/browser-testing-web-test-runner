@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/trivikr/browser-testing-web-test-runner/issues"
   },
-  "homepage": "https://github.com/trivikr/browser-testing-web-test-runner#readme"
+  "homepage": "https://github.com/trivikr/browser-testing-web-test-runner#readme",
+  "packageManager": "yarn@3.6.3"
 }
