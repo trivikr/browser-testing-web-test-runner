@@ -666,6 +666,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@web/test-runner-playwright@npm:^0.10.1":
+  version: 0.10.1
+  resolution: "@web/test-runner-playwright@npm:0.10.1"
+  dependencies:
+    "@web/test-runner-core": ^0.11.0
+    "@web/test-runner-coverage-v8": ^0.7.0
+    playwright: ^1.22.2
+  checksum: d2aebc54c0444fb434671dc0d3a3912f76570eae4a909b7912cf46b9535232c7f7829729554e8629f546abce48433f9f5b21d583011582753fbb40e288c28e80
+  languageName: node
+  linkType: hard
+
 "@web/test-runner@npm:^0.17.1":
   version: 0.17.1
   resolution: "@web/test-runner@npm:0.17.1"
@@ -946,6 +957,8 @@ __metadata:
   dependencies:
     "@esm-bundle/chai": ^4.3.4-fix.0
     "@web/test-runner": ^0.17.1
+    "@web/test-runner-playwright": ^0.10.1
+    playwright: ^1.38.0
   languageName: unknown
   linkType: soft
 
@@ -1732,12 +1745,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fsevents@npm:2.3.2":
+  version: 2.3.2
+  resolution: "fsevents@npm:2.3.2"
+  dependencies:
+    node-gyp: latest
+  checksum: 97ade64e75091afee5265e6956cb72ba34db7819b4c3e94c431d4be2b19b8bb7a2d4116da417950c3425f17c8fe693d25e20212cac583ac1521ad066b77ae31f
+  conditions: os=darwin
+  languageName: node
+  linkType: hard
+
 "fsevents@npm:~2.3.2":
   version: 2.3.3
   resolution: "fsevents@npm:2.3.3"
   dependencies:
     node-gyp: latest
   checksum: 11e6ea6fea15e42461fc55b4b0e4a0a3c654faa567f1877dbd353f39156f69def97a69936d1746619d656c4b93de2238bf731f6085a03a50cabf287c9d024317
+  conditions: os=darwin
+  languageName: node
+  linkType: hard
+
+"fsevents@patch:fsevents@2.3.2#~builtin<compat/fsevents>":
+  version: 2.3.2
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  dependencies:
+    node-gyp: latest
   conditions: os=darwin
   languageName: node
   linkType: hard
@@ -2971,6 +3003,30 @@ __metadata:
   version: 2.3.1
   resolution: "picomatch@npm:2.3.1"
   checksum: 050c865ce81119c4822c45d3c84f1ced46f93a0126febae20737bd05ca20589c564d6e9226977df859ed5e03dc73f02584a2b0faad36e896936238238b0446cf
+  languageName: node
+  linkType: hard
+
+"playwright-core@npm:1.38.0":
+  version: 1.38.0
+  resolution: "playwright-core@npm:1.38.0"
+  bin:
+    playwright-core: cli.js
+  checksum: 9eb43fc6c3cb392d5f35b0fd0b7291b38a8cbdc3cbb944a8261f744f30d09196dfa3b5d84aa02ffc09af87d08d31b385b007b6af20d0b6cd50a29344f3b0db8d
+  languageName: node
+  linkType: hard
+
+"playwright@npm:^1.22.2, playwright@npm:^1.38.0":
+  version: 1.38.0
+  resolution: "playwright@npm:1.38.0"
+  dependencies:
+    fsevents: 2.3.2
+    playwright-core: 1.38.0
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    playwright: cli.js
+  checksum: c5356690a391d5dd41f814d4e2694b93ba9e79381ce63de752da1c6c59b1f9c69bc6be853d973d0542d73a44a6b15f7c0081a164a64cd27b6b31207710c0ab34
   languageName: node
   linkType: hard
 
