@@ -958,6 +958,7 @@ __metadata:
     "@esm-bundle/chai": ^4.3.4-fix.0
     "@web/test-runner": ^0.17.1
     "@web/test-runner-playwright": ^0.10.1
+    playwright: ^1.38.0
   languageName: unknown
   linkType: soft
 
@@ -3014,7 +3015,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright@npm:^1.22.2":
+"playwright@npm:^1.22.2, playwright@npm:^1.38.0":
   version: 1.38.0
   resolution: "playwright@npm:1.38.0"
   dependencies:
