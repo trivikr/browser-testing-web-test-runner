@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Example browser testing using Web Test Runner",
   "scripts": {
-    "test": "wtr src/**.spec.js --node-resolve"
+    "test": "wtr src/**.spec.js --node-resolve --playwright --browsers chromium firefox webkit"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "type": "module",
   "devDependencies": {
     "@esm-bundle/chai": "^4.3.4-fix.0",
-    "@web/test-runner": "^0.17.1"
+    "@web/test-runner": "^0.17.1",
+    "@web/test-runner-playwright": "^0.10.1"
   }
 }
