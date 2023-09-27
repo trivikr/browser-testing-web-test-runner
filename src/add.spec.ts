@@ -1,5 +1,5 @@
 import { expect } from "@esm-bundle/chai";
-import { add } from "./add.js";
+import { add } from "./add";
 
 describe(add.name, () => {
   it("adds two numbers", () => {
