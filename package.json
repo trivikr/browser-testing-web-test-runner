@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Example browser testing using Web Test Runner",
   "scripts": {
-    "test": "wtr src/**.spec.js --node-resolve --playwright --browsers chromium firefox webkit"
+    "test": "wtr"
   },
   "repository": {
     "type": "git",
